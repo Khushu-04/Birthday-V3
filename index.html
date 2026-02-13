@@ -1,83 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday Babygirl!</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <audio id="backgroundMusic" loop>
-        <source src="birthday_song.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-
-    <div class="step active" id="step1">
-        <div class="welcome-card">
-            <h1 class="welcome-title">You've got a surprise!</h1>
-            <p class="welcome-message">Click below to start your birthday journey...</p>
-            <button id="startButton" class="action-button">Start the Celebration!</button>
+<div class="step active" id="step1">
+    <div class="soft-glow-bg"></div>
+    <div class="minimal-container">
+        <span class="greeting-pre">Hi there,</span>
+        <h1 class="hero-name">MOHIT</h1>
+        
+        <div class="identity-row">
+            <span class="babygirl-tag">Babygirl</span>
         </div>
-    </div>
 
-    <div class="step" id="step2">
-        <div class="envelope-container" id="envelopeContainer">
-            <div class="envelope">
-                <div class="envelope-back"></div>
-                <div class="envelope-front"></div>
-                <div class="envelope-flap"></div>
-                <div class="envelope-seal"></div>
-            </div>
-            <p class="click-instruction">Click the envelope!</p>
-        </div>
+        <p class="casual-subtext">Just a little something to celebrate your day.</p>
+        
+        <button id="startButton" class="soft-button">
+            Let's celebrate
+        </button>
     </div>
+</div>
 
-    <div class="step" id="step3">
-        <div class="letter-container" id="letterContainer">
-            <div class="letter">
-                <p> Dearest Mohit,</p>
-                <p>This message carries wishes straight from the heart, ready to unfold into a memorable celebration just for you.</p>
-                <p>Click the button to reveal your special birthday surprise!</p>
-                <button id="unfoldButton" class="action-button">Unfold My Surprise!</button>
+<div class="step" id="step3">
+    <div class="letter-container" id="letterContainer">
+        <div class="letter-card">
+            <div class="letter-content">
+                <h3>Happy Birthday, Mohit!</h3>
+                <p>I wanted to send a quick note to wish you the best day. You’ve been such a great friend.</p>
+                <p>I hope this year brings you plenty of good vibes, success, and all the things that make you happy.</p>
+                <p>Enjoy every bit of today!</p>
+                
+                <button id="unfoldButton" class="text-link-btn">Check out your surprise →</button>
             </div>
         </div>
     </div>
+</div>
 
-    <div class="step" id="step4">
-        <div class="celebration-container">
-            <div class="fireworks-container"></div>
-            <div class="confetti-cannon-container"></div>
-            <div class="balloons-container"></div>
+<div class="step" id="step4">
+    <div class="celebration-card-simple">
+        <h1 class="recipient-name">MOHIT</h1>
+        
+        <div class="cake-wrapper">
+             </div>
 
-            <div class="celebration-card">
-                <p class="sub-greeting">To the amazing</p>
-                <h1 class="main-greeting typewriter-text" id="finalGreeting">Happy Birthday,</h1>
-                <h2 class="recipient-name">Mohit!</h2>
-                <div class="cake-container">
-                    <div class="cake">
-                        <div class="plate"></div>
-                        <div class="layer layer-bottom"></div>
-                        <div class="layer layer-middle"></div>
-                        <div class="layer layer-top"></div>
-                        <div class="icing"></div>
-                        <div class="drip drip1"></div>
-                        <div class="drip drip2"></div>
-                        <div class="drip drip3"></div>
-                        <div class="candle">
-                            <div class="flame" id="candleFlame"></div>
-                        </div>
-                    </div>
-                </div>
-                <p class="final-wish">You’re not just getting older, you’re getting cooler ,Thanks for being awesome and making life less boring.  
-                   Have a blast today!
-
-            </p>
-                <p class="signature">With love and best wishes <span class="heart-icon"></span></p>
-            </div>
-        </div>
+        <p class="warm-wish">
+            Have a blast today. You deserve the best!
+        </p>
+        <p class="simple-signature">Warmly, <span class="babygirl-sig">Babygirl</span></p>
     </div>
-
-    <script src="script.js"></script>
-</body>
-</html>
+</div>
